@@ -6,14 +6,19 @@ var Header = React.createClass({
 		title: React.PropTypes.string.isRequired
 	},
 
+	getDefaultProps() {
+		return {
+			status: 'disconnected'
+		}
+	},
+
 	render() {
 		return (
-			<div>
-			
-			<header>
+			<header className="row">
 				<h1>{this.props.title}</h1>
+				
+				
 			</header>
-			</div>
 		);
 	}
 

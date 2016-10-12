@@ -18,6 +18,7 @@
     "react": "^0.14.3",
     "react-bootstrap-select": "^0.14.0",
     "react-dom": "^0.14.8",
+    "react-router": "^2.8.1",
     "request": "^2.72.0",
     "socket.io": "^1.5.0",
     "socket.io-client": "^1.5.0",

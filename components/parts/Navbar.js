@@ -1,8 +1,10 @@
 import React from 'react';
-class Navbar extends React.Component{
-	constructor(props){
-		super(props);
-    }
+
+//class Navbar extends React.Component{
+var Navbar = React.createClass({
+	// constructor(props){
+	// 	super(props);
+ //    }
 
 
 render(){
@@ -45,7 +47,7 @@ render(){
         </div>
         
     </nav>
-  )};
-}
+  )}
+});
 
 export default Navbar;

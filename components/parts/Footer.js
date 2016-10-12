@@ -1,14 +1,16 @@
 import React from 'react';
-class Footer extends React.Component{
-	constructor(props){
-		super(props);
-    }
+//class Footer extends React.Component{
+var Footer = React.createClass({
+
+	// constructor(props){
+	// 	super(props);
+ //    }
 
 
 render(){
 
 		return (
-			<footer>
+		<footer>
         <div className="container">
         <div className="row">
             <div className="col-lg-12 text-center">
@@ -16,10 +18,10 @@ render(){
                 Centi Sudarshana Chavan</p>
             </div>
         </div>
-       </div>
+        </div>
         </footer>
-			)
-	};
-}
+		)
+	}
+})
 
 export default Footer;
