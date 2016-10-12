@@ -4,7 +4,8 @@
   "description": "",
   "main": "public/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "webpack",
+    "start": "node app-server.js"
   },
   "author": "Ahmed Haque",
   "license": "ISC",
@@ -16,8 +17,10 @@
     "geocoder": "^0.2.2",
     "react": "^0.14.3",
     "react-bootstrap-select": "^0.14.0",
-    "react-dom": "^0.14.3",
+    "react-dom": "^0.14.8",
     "request": "^2.72.0",
+    "socket.io": "^1.5.0",
+    "socket.io-client": "^1.5.0",
     "unirest": "^0.5.1",
     "weather-js": "^1.0.2"
   },
